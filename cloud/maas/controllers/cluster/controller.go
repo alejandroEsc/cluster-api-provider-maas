@@ -42,7 +42,7 @@ import (
 )
 
 const (
-	controllerName = "skeleton-cluster-controller"
+	controllerName = "maas-cluster-controller"
 )
 
 func Start(server *options.Server, shutdown <-chan struct{}) {
@@ -61,7 +61,7 @@ func Start(server *options.Server, shutdown <-chan struct{}) {
 	}
 	actuator, err := clusteractuator.NewActuator(params)
 	if err != nil {
-		glog.Fatalf("Could not create skeleton cluster actuator: %v", err)
+		glog.Fatalf("Could not create maas cluster actuator: %v", err)
 	}
 
 	si := sharedinformers.NewSharedInformers(config, shutdown)

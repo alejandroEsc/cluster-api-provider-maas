@@ -42,7 +42,7 @@ import (
 )
 
 const (
-	controllerName = "skeleton-machine-controller"
+	controllerName = "maas-machine-controller"
 )
 
 func Start(server *options.Server, shutdown <-chan struct{}) {
@@ -61,7 +61,7 @@ func Start(server *options.Server, shutdown <-chan struct{}) {
 	}
 	actuator, err := machineactuator.NewActuator(params)
 	if err != nil {
-		glog.Fatalf("Could not create skeleton machine actuator: %v", err)
+		glog.Fatalf("Could not create maas machine actuator: %v", err)
 	}
 
 	si := sharedinformers.NewSharedInformers(config, shutdown)

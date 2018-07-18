@@ -31,7 +31,7 @@ type AWSProviderConfigCodec struct {
 	decoder runtime.Decoder
 }
 
-const GroupName = "skeletonproviderconfig"
+const GroupName = "maasproviderconfig"
 
 var SchemeGroupVersion = schema.GroupVersion{Group: GroupName, Version: "v1alpha1"}
 
