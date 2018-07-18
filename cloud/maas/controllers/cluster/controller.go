@@ -37,8 +37,8 @@ import (
 	"sigs.k8s.io/cluster-api/pkg/controller/config"
 	"sigs.k8s.io/cluster-api/pkg/controller/sharedinformers"
 
-	clusteractuator "sigs.k8s.io/cluster-api-provider-skeleton/cloud/skeleton/actuators/cluster"
-	"sigs.k8s.io/cluster-api-provider-skeleton/cloud/skeleton/controllers/cluster/options"
+	clusteractuator "github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/actuators/cluster"
+	"github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/controllers/cluster/options"
 )
 
 const (

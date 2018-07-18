@@ -37,8 +37,8 @@ import (
 	machinecontroller "sigs.k8s.io/cluster-api/pkg/controller/machine"
 	"sigs.k8s.io/cluster-api/pkg/controller/sharedinformers"
 
-	machineactuator "sigs.k8s.io/cluster-api-provider-skeleton/cloud/skeleton/actuators/machine"
-	"sigs.k8s.io/cluster-api-provider-skeleton/cloud/skeleton/controllers/machine/options"
+	machineactuator "github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/actuators/machine"
+	"github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/controllers/machine/options"
 )
 
 const (

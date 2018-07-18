@@ -24,8 +24,8 @@ import (
 	"k8s.io/apiserver/pkg/util/logs"
 	"sigs.k8s.io/cluster-api/pkg/controller/config"
 
-	"sigs.k8s.io/cluster-api-provider-skeleton/cloud/skeleton/controllers/cluster"
-	"sigs.k8s.io/cluster-api-provider-skeleton/cloud/skeleton/controllers/cluster/options"
+	"github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/controllers/cluster"
+	"github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/controllers/cluster/options"
 )
 
 func init() {

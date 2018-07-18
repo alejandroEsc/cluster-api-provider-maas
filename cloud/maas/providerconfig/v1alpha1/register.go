@@ -22,7 +22,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	clusterv1 "sigs.k8s.io/cluster-api/pkg/apis/cluster/v1alpha1"
 
-	"sigs.k8s.io/cluster-api-provider-skeleton/cloud/aws/providerconfig"
+	"github.com/alejandroEsc/cluster-api-provider-maas/cloud/maas/providerconfig"
 )
 
 // +k8s:deepcopy-gen=false
